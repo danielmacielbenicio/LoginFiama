@@ -1,12 +1,12 @@
 package br.com.danielmaciel.lifebloom.controller;
 
 import br.com.danielmaciel.lifebloom.entity.Lifebloom;
-import br.com.danielmaciel.lifebloom.repository.LifebloomRepository;
 import br.com.danielmaciel.lifebloom.service.LifebloomService;
 import org.springframework.web.bind.annotation.*;
 
 import java.util.List;
 
+@CrossOrigin(origins = "*")
 @RestController
 @RequestMapping("/lifebloom")
 
